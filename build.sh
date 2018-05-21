@@ -2,7 +2,7 @@
 DTS=arch/arm64/boot/dts
 RDIR=$(pwd)
 # GCC
-export CROSS_COMPILE=/home/prashantp/UBERTC-aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export CROSS_COMPILE=/home/prashantp/gcc-linaro-7.2.1/bin/aarch64-linux-gnu-
 # Cleanup
 make clean && make mrproper
 # J700F NN Defcon
